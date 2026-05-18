@@ -10,17 +10,19 @@ int main()
     */
 
     //단축키
-    //ctrl+D = 문장 복사
-    //alt+shift+드래그 = 세로 다중 선택
-    //ctrl+arrow = 단어 단위로 건너뛰기
-    //ctrl+space = 인텔리센스 재활성화
-    //alt+Up/Down = 현재 줄 위아래로 옮기기
-    //F5 = 디버그로 시작
-    //F9 = 브레이크 포인트 설정/해제
+    //ctrl+D : 문장 복사
+    //alt+shift+드래그 : 세로 다중 선택
+    //ctrl+arrow : 단어 단위로 건너뛰기
+    //ctrl+space : 인텔리센스 재활성화
+    //alt+Up/Down : 현재 줄 위아래로 옮기기
+    //F5 : 디버그로 시작
+    //F9 : 브레이크 포인트 설정/해제
+    //ctrl+k+c : 블럭 영역 주석 처리
+    //ctrl+k+u : 블럭 영역 주석 헤제
 
-    printf("Hello World!\n"); //줄바꿈
-    printf("Hello\t World!\n"); //tab
-    printf("\"Hello World!\"\n"); //큰 따옴표
+    printf("hello world!\n"); //줄바꿈
+    printf("hello\t world!\n"); //tab
+    printf("\"hello world!\"\n"); //큰 따옴표
     printf("Hello World!\n"); //줄바꿈
 
     std::cout <<

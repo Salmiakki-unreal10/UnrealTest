@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Day0518.h" />
     <ClCompile Include="UnrealTest.cpp" />
   </ItemGroup>
   <ItemGroup>
