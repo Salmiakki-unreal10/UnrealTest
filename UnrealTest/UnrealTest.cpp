@@ -4,7 +4,7 @@
 
 int main()
 {
-	printf("branch1 \n");
+	printf("branch \n");
 
 
 }
