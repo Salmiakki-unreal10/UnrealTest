@@ -4,7 +4,7 @@
 
 int main()
 {
-	printf("Hello Branch! Branch!");
+	printf("안녕하세요 브랜치 Git Branch \n");
 
 
 }
