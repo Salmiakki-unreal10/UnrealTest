@@ -4,7 +4,7 @@
 
 int main()
 {
-	printf("안녕하세요 브랜치 Git Branch \n");
+	printf("브랜치2");
 
 
 }
