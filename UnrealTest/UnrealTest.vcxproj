@@ -124,12 +124,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Day0518.h" />
+    <ClCompile Include="PracticeA.cpp" />
     <ClCompile Include="UnrealTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Day0521.h" />
     <ClInclude Include="Day0515.h" />
     <ClInclude Include="Day0519.h" />
     <ClInclude Include="Day0520.h" />
+    <ClInclude Include="Day0521-2.h" />
+    <ClInclude Include="practiceA.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

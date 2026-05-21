@@ -21,6 +21,9 @@
     <ClCompile Include="Day0518.h">
       <Filter>헤더 파일</Filter>
     </ClCompile>
+    <ClCompile Include="PracticeA.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day0515.h">
@@ -30,6 +33,15 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Day0520.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Day0521.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Day0521-2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="practiceA.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
