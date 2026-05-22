@@ -124,7 +124,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Day0518.h" />
+    <ClCompile Include="Day0522.cpp" />
     <ClCompile Include="PracticeA.cpp" />
+    <ClCompile Include="PracticeB.cpp" />
     <ClCompile Include="UnrealTest.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -133,7 +135,10 @@
     <ClInclude Include="Day0519.h" />
     <ClInclude Include="Day0520.h" />
     <ClInclude Include="Day0521-2.h" />
-    <ClInclude Include="practiceA.h" />
+    <ClInclude Include="Day0522.h" />
+    <ClInclude Include="PracticeA.h" />
+    <ClInclude Include="PracticeB.h" />
+    <ClInclude Include="PracticeC.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
