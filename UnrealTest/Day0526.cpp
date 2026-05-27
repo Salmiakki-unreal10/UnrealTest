@@ -13,6 +13,13 @@ void Swap(int* a, int* b)
 	*b = temp;
 	//return a;
 }
+void Swap2(int& a, int& b)			//a = &valueA b = &valueB 
+{
+	int temp = a;					//temp = valueA의 주소값
+	a = b;							//valueA의 주소값 = valueB의 주소값
+	b = temp;						//valueA의 주소값 = temp
+	//return a;
+}
 // 2. 포인터를 이용해서 배열의 최대값 찾는 함수 만들기
 //	- 인덱스 사용급지. (Array[i])사용 x
 int FindMax(int* Data, int Size)
@@ -113,7 +120,9 @@ void Day0526()
 	int valueb = 2;
 	printf("%d, %d - >", valuea, valueb);
 	Swap(&valuea, &valueb);
-	printf("%d, %d", valuea, valueb);
+	printf(" %d, %d - >", valuea, valueb);
+	Swap2(valuea, valueb);
+	printf(" %d, %d", valuea, valueb);
 
 	printf("\n최댓값 찾기 :%d\n", FindMax(Array, 5));
 	Flip(Array, 5);
