@@ -9,6 +9,7 @@
 //#include"PracticeB.h"
 #include "Day0526.h"
 #include "Day0527.h"
+#include "Day0528.h"
 using namespace std;
 //
 
@@ -19,7 +20,8 @@ int main()
 	Seed = 0;
 	srand(Seed);
 	//Day0526();
-	Day0527();
+	//Day0527();
+	Day0528();
 
 	
 }
